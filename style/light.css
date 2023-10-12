@@ -1,0 +1,90 @@
+.light-btn {
+    border: none;
+    color: var(--deep-blue);
+    background-color: var(--blue-12);
+}
+.light-btn:hover {
+    background-color: var(--blue-16);
+}
+.use_cases {
+    background-color: var(--dark-blue);
+}
+.currencies {
+    background-color: var(--bg-light);
+}
+.currencies h2 {
+    color: var(--dark)
+}
+.currencies p{
+    color: var(--dark-80)
+}
+.currencies .flex p {
+    color: var(--dark-40)
+}
+.create-app {
+    background-color: var(--bg-light);
+}
+.btn-create-app {
+    background: linear-gradient(240deg, rgba(41, 126, 226, 0.12) 3.57%, rgba(24, 97, 182, 0.12) 86.24%);
+}
+.btn-create-app span {
+    color: var(--dark)
+}
+.features-stat {
+    background-color: var(--bg-light);
+}
+.create-app-text p {
+    color: var(--dark-80)
+}
+.exchange {
+    background-color: var(--bg-light);
+}
+.exchange p {
+    color: var(--dark-80)
+}
+.features-stat p {
+    color: var(--dark-80)
+}
+.verification {
+    background-color: var(--bg-light);
+}
+.verification p {
+    color: var(--dark-80)
+}
+.anon {
+    background-color: var(--bg-light);
+}
+.anon p {
+    color: var(--dark-80)
+}
+.using-app  {
+    background-color: var(--bg-light);
+}
+.currencies .flex .description, .currencies .text, .exchange .text, .features-stat .text, .verification .text, .anon .text {
+    color: var(--dark-80) 
+}
+.currencies h2, .exchange h3, .features-stat h4, .verification h3, .anon h3 {
+    color: var(--dark);
+}
+.using-app-step {
+    color: var(--white);
+    border-radius: 900px;
+    background: linear-gradient(220deg, #010417 10.26%, #2B333F 84.25%), linear-gradient(46deg, #000 15.89%, #434343 171.16%);
+    box-shadow: 0px 0px 8px 0px rgba(182, 186, 191, 0.04), 0px 2px 3px 0px rgba(0, 0, 0, 0.02);
+
+}
+.using-app-desc {
+    color: var(--dark-80)
+}
+.bottom-text {
+    color: var(--dark-80)
+}
+.lang .text {
+    color: var(--dark-80)
+}
+.bottom-container {
+    background-color: var(--white);
+}
+footer .btn-text {
+    color: var(--white)
+}

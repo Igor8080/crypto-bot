@@ -1,0 +1,80 @@
+html {
+    background-color: var(--dark);
+}
+.light-btn {
+    border: none;
+    color: var(--deep-blue);
+    background-color: transparent;
+    border: 1px solid var(--White-60, rgba(255, 255, 255, 0.60));
+    color: var(--white)
+
+}
+.light-btn:hover, .footer-btn:hover {
+    border: 1px solid var(--White, #FFF);
+    cursor: pointer;
+}
+.header-nav .btn-text {
+    color: var(--white)
+}
+.banner-text h1, .banner-text .text {
+    color: var(--white)
+}
+.use_cases {
+    background-color: var(--bg-dark);
+}
+.currencies h2, .exchange h3, .features-stat h4, .verification h3, .anon h3 {
+    color: var(--white);
+}
+.currencies .flex .description, .currencies .text, .exchange .text, .features-stat .text, .verification .text, .anon .text {
+    color: var(--white-80) 
+}
+
+.btn-create-app {
+    background: var(--Gradient-blue, linear-gradient(233deg, #9FCCFA -20.48%, #0974F1 97.38%));
+}
+.btn-create-app span {
+    color: var(--white)
+}
+.create-app, .currencies, .features-stat, .exchange, .verification, .anon {
+    background-color: var(--bg-dark);
+}
+.create-app-text h3 {
+    color: var(--white) !important;
+}
+.create-app-text .text {
+    color: var(--white-80)
+}
+
+.using-app {
+    background-color: var(--bg-dark);
+}
+.using-app h3, .using-app .text {
+    color: var(--white)
+}
+.using-app-step {
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 8px 0px rgba(182, 186, 191, 0.04), 0px 2px 3px 0px rgba(0, 0, 0, 0.02);
+    color: var(--dark);
+    border-radius: 900px;
+}
+.bottom h2 {
+    color: var(--white)
+}
+.bottom-text {
+    color: var(--white-80);
+}
+.lang .text {
+    color: var(--white-80)
+}
+.bottom-container {
+    background-color: var(--dark);
+}
+.date {
+    color: var(--white)
+}
+.using-app h2 {
+    color: var(--white)
+}
+.active-text {
+    color: var(--general) !important
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/light.css" id="style">
+    
+    <title>Light Page</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+
+            <header>
+                <div class="wrapper mt-4 flex">
+                    <img src="assets/img/logo/logo-desctop.svg" class="d-none-desc">
+                    <img src="assets/img/logo/logo-mobile.svg" class="d-none-mobile">
+
+                    <nav class="flex header-nav d-none-desc">
+                        <a class="btn-text">Use cases</a>
+                        <a class="btn-text">Features</a>
+                        <a class="btn-text">How to start</a>
+                    </nav>
+                    <div class="header-button flex">
+                        <img src="assets/img/UI/light.svg" class="theme-btn pointer" onclick="theme.set()">
+                        <button class="light-btn">Get started</button>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="mt-4">
+                <div class="wrapper banner">
+                    <div class="banner-text">
+                        <h1>Crypto payments for <span class="active-text h1">telegram bots</span></h1>
+                        <p class="text desc">Seamlessly accept crypto payments<br>in your Telegram bots and services.</p>
+                        <button class="btn desc">Get started</button>
+                        <div class="flex">
+                            <img src="assets/img/UI/duck.png">
+                            <img src="assets/img/UI/nlo.png" class="banner-img">
+                            <img src="assets/img/UI/star.png" class="banner-img">
+                            <img src="assets/img/UI/monster.png"class="banner-img">
+                            <img src="assets/img/UI/wolf.png" class="banner-img">
+                        </div>
+                        <p class="text text-p">Popular bots use Crypto Pay</p>
+                    </div>
+                    <div class="banner-phone">
+                        <img src="assets/img/UI/phone.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="use_cases" id="slider">
+
+                <div class="wrapper flex" id="s-1">
+                    <div class="wrapper-use_cases-img">
+                        <img src="assets/img/UI/usecase-1.png">
+                    </div>
+                    <div class="use_cases-text">
+                        <h2><span class="active-text h2">Instant</span><br class="d-none-desc"> Auto Sales:<br class="d-none-mobile"> Boost conversion</h2>
+                        <p class="text">Immediately deliver digital products<br> and services to your users.</p>
+                        <button class="btn">Open API Docs</button>
+                    </div>
+                    <div class="use_cases_pagination">
+                        <p class="description">01</p>
+                        <div class="line-pagination line-pagination-active"></div>
+                        <div class="line-pagination"></div>
+                        <div class="line-pagination"></div>
+                        <p class="description end">03</p>
+                    </div>
+                </div>
+
+                <div class="wrapper flex op-0" id="s-2">
+                    <div class="wrapper-use_cases-img">
+                        <img src="assets/img/UI/usecase-2.png">
+                    </div>
+                    <div class="use_cases-text">
+                        <h2><span class="active-text h2">Channels integration</span><br class="d-none-desc"> Seamless access</h2>
+                        <p class="text">Automatically unlock exclusive content to your users.</p>
+                        <button class="btn">Open API Docs</button>
+                    </div>
+                    <div class="use_cases_pagination">
+                        <p class="description">01</p>
+                        <div class="line-pagination"></div>
+                        <div class="line-pagination line-pagination-active"></div>
+                        <div class="line-pagination"></div>
+                        <p class="description end">03</p>
+                    </div>
+                </div>
+
+                <div class="wrapper flex op-0" id="s-3">
+                    <div class="wrapper-use_cases-img">
+                        <img src="assets/img/UI/usecase-3.png">
+                    </div>
+                    <div class="use_cases-text">
+                        <h2><span class="active-text h2">Endless customization</span> with Webhooks</h2>
+                        <p class="text">Receive successful payment notifications in real-time. Integrate to any scenario of your service.</p>
+                        <button class="btn vbn-open">Open API Docs</button>
+                    </div>
+                    <div class="use_cases_pagination">
+                        <p class="description">01</p>
+                        <div class="line-pagination"></div>
+                        <div class="line-pagination"></div>
+                        <div class="line-pagination line-pagination-active"></div>
+                        <p class="description end">03</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container features">
+                <div class="wrapper">
+                    
+                    <div class="currencies">
+                        <div class=" d-none-mobile">
+                            <div class="flex img-div-token">
+                                <div>
+                                    <img src="assets/img/UI/ETH.svg" class="mobile-img token-img-animate" >
+                                </div>
+                                <div>
+                                    <img src="assets/img/UI/USDT.svg" class="mobile-img">
+                                </div>
+                                <div>
+                                    <img src="assets/img/UI/BTC.svg" class="mobile-img">
+                                </div>
+                                <div>
+                                    <img src="assets/img/UI/TON.svg" class="mobile-img">
+                                </div>
+                            </div>
+                            <div class="flex img-div-token token-2 mt-1">
+                                <div>
+                                    <img src="assets/img/UI/BNB.svg" class="mobile-img">
+                                </div>
+                                <div>
+                                    <img src="assets/img/UI/TRX.svg" class="mobile-img">
+                                </div>
+                                <div>
+                                    <img src="assets/img/UI/USDC.svg" class="mobile-img" >
+                                </div>
+                                <div>
+                                    <img src="assets/img/UI/LTC.svg" class="mobile-img">
+                                </div>
+                            </div>
+                        </div>
+                       <h2>Accept a wide range of cryptocurrencies</h2>
+                       <p class="text">Bill any supported cryptocurrencies with asset parameter in <span class="active-text">GetInvoice</span><br class="d-none-mobile"> method</p>
+                        <div class="flex d-none-desc">
+                            <div>
+                                <img src="assets/img/UI/ETH.svg" class="token-img token-img-animate">
+                                <p class="description">ETH</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/UI/USDT.svg" class="token-img">
+                                <p class="description">USDT</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/UI/TON.svg" class="token-img">
+                                <p class="description">TON</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/UI/BTC.svg" class="token-img">
+                                <p class="description">BTC</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/UI/TRX.svg" class="token-img">
+                                <p class="description">TRX</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/UI/LTC.svg" class="token-img">
+                                <p class="description">LTC</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/UI/USDC.svg" class="token-img">
+                                <p class="description">USDC</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/UI/BNB.svg" class="token-img">
+                                <p class="description">BNB</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex mt-2 wrap-c">
+                       <div class="mobile-wrapper">
+                            <div class="create-app">
+                                <div class="btn-create-app-wrapper">
+                                    <button class="btn-create-app">
+                                        <img src="assets/img/UI/tree.png">
+                                        <span>Create App</span>
+                                    
+                                    </button>
+                                </div>
+                                <svg class="click" xmlns="http://www.w3.org/2000/svg" width="43" height="47" viewBox="0 0 43 47" fill="none">
+                                    <path d="M11.1275 3.64677C6.7178 1.12449 1.36473 4.88154 2.23774 9.88607L7.45908 39.8172C8.51449 45.8673 16.9001 46.6127 19.006 40.8435L22.4947 31.2864C22.782 30.4994 23.5293 29.9749 24.3671 29.9723L34.541 29.9403C40.6824 29.921 42.8322 21.7813 37.5012 18.7321L11.1275 3.64677Z" fill="url(#paint0_linear_955_3950)" stroke="#F1F5F9" stroke-width="4"/>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_955_3950" x1="1.90306" y1="-33.3301" x2="-24.3108" y2="39.2676" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#9FCCFA"/>
+                                            <stop offset="1" stop-color="#0974F1"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                                <div class="create-app-text">
+                                    <h3>One click to start</h3>
+                                    <p class="text">Open <span class="text active-text">@CryptoBot</span>, go to<br class="d-none-mobile"> <span class="text active-text">Crypto Pay</span><br class="d-none-desc"> and tap Create App to get API Token</p>
+                                </div>
+                            </div>
+                        <div class="exchange">
+                            <div class="flex">
+                                <img src="assets/img/UI/USDT-none.svg">
+                                <img src="assets/img/UI/BTC-none.svg" class="minus">
+                                <img src="assets/img/UI/TON-none.svg" class="minus">
+                                <img src="assets/img/UI/line-btn.svg" class="line">
+                                <img src="assets/img/UI/DOLLARS.svg" class="dol-none">
+                            </div>
+                            <h3>Real-time<br>exchange rates</h3>
+                            <p class="text mt-2">Request up to date currency rate with the <span class="active-text text">getExchangeRates</span> API method</p>
+                        </div>
+                        </div> 
+                        <div class="features-stat flex-center mt-16-mobile">
+                           <img src="assets/img/UI/img_commission.png">
+                           
+                           <h4>Payment statistics</h4>
+                           <p class="text">Open <span class="active-text text">@CryptoBot</span>, go to <span class="active-text text">Crypto Pay</span> and <span class="active-text text">My Apps</span>,<br> App Name to get Statistics</p>
+                        </div>
+                    </div>
+
+                    <div class="flex mt-2 space-between commision-wrapper">
+                        <div class="verification">
+                            <img src="assets/img/UI/img_commission_phone.png">
+                            <h3 class="mt-2">Send coins to users</h3>
+                            <p class="text">Automate payouts to users with <span class="active-text text">transfer</span> API method</p>
+                        </div>
+                        <div class="anon mt-16-mobile">
+                            <img src="assets/img/UI/img_anon.png">
+                            <h3 class="mt-2">Anonymous<br> payments</h3>
+                            <p class="text mt-2">Use allow_anonymous<br class="d-none-mobile"> parameter<br class="d-none-desc"> in <span class="active-text text">createInvoice</span> method to give user<br class="d-none-desc"> an option to remain private</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="using-app">
+                <h2 class="center">Quick start using <span class="active-text h2">Crypto Pay</span></h2>
+                <div class="wrapper">
+
+                    <div class="flex space-between mt-4 flex-wrapper">
+                        <div class="using-app-text mt-16-mobile">
+                            <div class="using-app-step">1</div>
+                            <h3>Authorizing your app</h3>
+                            <p class="text mt-2">1. Open <span class="active-text text">@CryptoBot</span></p>
+                            <p class="text">2. Go to <span class="active-text text">Crypto Pay</span></p>
+                            <p class="text">3. Tap <span class="active-text text">Create App</span></p>
+                            <p class="text">4. Get <span class="active-text text">API Token</span></p>
+                        </div>
+                        <div class="">
+                            <img src="assets/img/UI/usecases-block_img.png">
+                        </div>
+                    </div>
+
+                    <div class="flex space-between mt-4 flex-wrapper">
+                        <div class="">
+                            <img src="assets/img/UI/usecases-block_img-2.png">
+                        </div>
+                        <div class="using-app-text mt-16-mobile">
+                            <div class="using-app-step">2</div>
+                            <h3>Crypto Pay API Request</h3>
+                            <p class="text using-app-desc mt-2">Requests are only served over HTTPS<br>To pass parameters use:</p>
+                            <ul class="mt-2">
+                                <li class="active-text text">URL query string</li>
+                                <li class="active-text text">application/json </li>
+                                <li class="active-text text">application/x-www-form-urlencoded</li>
+                                <li class="active-text text">multipart/form-data</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="flex space-between mt-4 flex-wrapper">
+                        <div class="using-app-text mt-16-mobile">
+                            <div class="using-app-step">3</div>
+                            <h3>Getting updates</h3>
+                            <p class="text using-app-desc mt-2">Requests are only served over HTTPS<br>To pass parameters use:</p>
+                            <ul class="mt-2">
+                                <li class="text active-text">getInvoices <span class="using-app-desc text">method to get a list of created invoices.</span></li>
+                                <li class="text active-text">Webhooks <span class="using-app-desc text">to receive updates in realtime.</span></li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <img src="assets/img/UI/usecases-block_img-3.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="api flex space-between">
+                    <div class="api-text">
+                        <h2>Crypto Pay API</h2>
+                        <p class="text">Explore available methods and types and integrate them in any programming language.</p>
+                        <div class="btn-wrapper-mobile">
+                            <button class="border-btn">Open API Docs</button>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/img/UI/API-block_img.png" class="d-none-desc">
+                    </div>
+                    <img src="assets/img/UI/API-block_img_mobile.png" class="img-api-mobile d-none-mobile">
+                </div>
+
+            </div>
+
+            <div class="container bottom-container">
+                <div class="wrapper center bottom">
+                    <h2>Join dev community</h2>
+                    <p class="text bottom-text">Connect with bot developers and explore the possibilities<br>our crypto payments service unlocks.</p>
+                    <div class="flex mt-4">
+                        <div class="lang">
+                            <img src="assets/img/UI/JS.svg">
+                            <p class="text">crypto-pay-api</p>
+                        </div>
+                        <div class="lang">
+                            <img src="assets/img/UI/NET.svg">
+                            <p class="text">CryptoPay</p>
+                        </div>
+                        <div class="lang">
+                            <img src="assets/img/UI/php.svg">
+                            <p class="text">crypto-pay-api</p>
+                        </div>
+                        <div class="lang">
+                            <img src="assets/img/UI/Python.svg">
+                            <p class="text">aiocryptopay</p>
+                        </div>
+                        <div class="lang">
+                            <img src="assets/img/UI/go.svg">
+                            <p class="text">cryptobot-sdk-golang</p>
+                        </div>
+                    </div>
+                    
+                    <button class="btn mt-4">Open Devs chat</button>
+                    
+                </div>
+            </div>
+
+            <footer>
+                <div class="wrapper mt-4 flex space-between">
+                    <img src="assets/img/logo/logo-desctop.svg" class="d-none-desc">
+                    <img src="assets/img/logo/logo-mobile.svg" class="d-none-mobile">
+
+                    <nav class="flex header-nav d-none-desc">
+                        <a class="btn-text">Use cases</a>
+                        <a class="btn-text">Features</a>
+                        <a class="btn-text">How to start</a>
+                    </nav>
+                    <button class="border-btn footer-btn">Get started</button>
+                </div>
+                <div class="wrapper">
+                    <div class="btn-text date">©2023 Crypto Bot</div>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+</html>
